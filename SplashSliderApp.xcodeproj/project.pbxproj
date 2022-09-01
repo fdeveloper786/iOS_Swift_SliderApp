@@ -17,6 +17,9 @@
 		10422EB328C12AED00E1038C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422E8928C12AED00E1038C /* ContentView.swift */; };
 		10422EB428C12AED00E1038C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10422E8A28C12AED00E1038C /* Assets.xcassets */; };
 		10422EB528C12AED00E1038C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10422E8A28C12AED00E1038C /* Assets.xcassets */; };
+		10422EC528C12C2400E1038C /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422EC428C12C2400E1038C /* PageModel.swift */; };
+		10422EC628C12C3600E1038C /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422EC428C12C2400E1038C /* PageModel.swift */; };
+		10422EC828C12E3C00E1038C /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422EC728C12E3C00E1038C /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		10422EA828C12AED00E1038C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10422EAC28C12AED00E1038C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		10422EAE28C12AED00E1038C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		10422EC428C12C2400E1038C /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		10422EC728C12E3C00E1038C /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +102,11 @@
 		10422E8728C12AED00E1038C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				10422EC428C12C2400E1038C /* PageModel.swift */,
 				10422E8828C12AED00E1038C /* SplashSliderAppApp.swift */,
 				10422E8928C12AED00E1038C /* ContentView.swift */,
 				10422E8A28C12AED00E1038C /* Assets.xcassets */,
+				10422EC728C12E3C00E1038C /* PageView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -300,6 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				10422EB228C12AED00E1038C /* ContentView.swift in Sources */,
+				10422EC828C12E3C00E1038C /* PageView.swift in Sources */,
+				10422EC528C12C2400E1038C /* PageModel.swift in Sources */,
 				10422EB028C12AED00E1038C /* SplashSliderAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10422EB328C12AED00E1038C /* ContentView.swift in Sources */,
+				10422EC628C12C3600E1038C /* PageModel.swift in Sources */,
 				10422EB128C12AED00E1038C /* SplashSliderAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
