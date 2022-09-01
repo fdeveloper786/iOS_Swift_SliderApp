@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10422EA128C12AED00E1038C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422EA028C12AED00E1038C /* Tests_iOS.swift */; };
+		10422EA328C12AED00E1038C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422EA228C12AED00E1038C /* Tests_iOSLaunchTests.swift */; };
+		10422EAD28C12AED00E1038C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422EAC28C12AED00E1038C /* Tests_macOS.swift */; };
+		10422EAF28C12AED00E1038C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422EAE28C12AED00E1038C /* Tests_macOSLaunchTests.swift */; };
+		10422EB028C12AED00E1038C /* SplashSliderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422E8828C12AED00E1038C /* SplashSliderAppApp.swift */; };
+		10422EB128C12AED00E1038C /* SplashSliderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422E8828C12AED00E1038C /* SplashSliderAppApp.swift */; };
+		10422EB228C12AED00E1038C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422E8928C12AED00E1038C /* ContentView.swift */; };
+		10422EB328C12AED00E1038C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10422E8928C12AED00E1038C /* ContentView.swift */; };
+		10422EB428C12AED00E1038C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10422E8A28C12AED00E1038C /* Assets.xcassets */; };
+		10422EB528C12AED00E1038C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10422E8A28C12AED00E1038C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10422E9D28C12AED00E1038C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10422E8328C12AED00E1038C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10422E8E28C12AED00E1038C;
+			remoteInfo = "SplashSliderApp (iOS)";
+		};
+		10422EA928C12AED00E1038C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10422E8328C12AED00E1038C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10422E9428C12AED00E1038C;
+			remoteInfo = "SplashSliderApp (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10422E8828C12AED00E1038C /* SplashSliderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashSliderAppApp.swift; sourceTree = "<group>"; };
+		10422E8928C12AED00E1038C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10422E8A28C12AED00E1038C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10422E8F28C12AED00E1038C /* SplashSliderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashSliderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10422E9528C12AED00E1038C /* SplashSliderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashSliderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10422E9728C12AED00E1038C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		10422E9C28C12AED00E1038C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10422EA028C12AED00E1038C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		10422EA228C12AED00E1038C /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		10422EA828C12AED00E1038C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10422EAC28C12AED00E1038C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		10422EAE28C12AED00E1038C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10422E8C28C12AED00E1038C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10422E9228C12AED00E1038C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10422E9928C12AED00E1038C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10422EA528C12AED00E1038C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10422E8228C12AED00E1038C = {
+			isa = PBXGroup;
+			children = (
+				10422E8728C12AED00E1038C /* Shared */,
+				10422E9628C12AED00E1038C /* macOS */,
+				10422E9F28C12AED00E1038C /* Tests iOS */,
+				10422EAB28C12AED00E1038C /* Tests macOS */,
+				10422E9028C12AED00E1038C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10422E8728C12AED00E1038C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				10422E8828C12AED00E1038C /* SplashSliderAppApp.swift */,
+				10422E8928C12AED00E1038C /* ContentView.swift */,
+				10422E8A28C12AED00E1038C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		10422E9028C12AED00E1038C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10422E8F28C12AED00E1038C /* SplashSliderApp.app */,
+				10422E9528C12AED00E1038C /* SplashSliderApp.app */,
+				10422E9C28C12AED00E1038C /* Tests iOS.xctest */,
+				10422EA828C12AED00E1038C /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10422E9628C12AED00E1038C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				10422E9728C12AED00E1038C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		10422E9F28C12AED00E1038C /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				10422EA028C12AED00E1038C /* Tests_iOS.swift */,
+				10422EA228C12AED00E1038C /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		10422EAB28C12AED00E1038C /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				10422EAC28C12AED00E1038C /* Tests_macOS.swift */,
+				10422EAE28C12AED00E1038C /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10422E8E28C12AED00E1038C /* SplashSliderApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10422EB828C12AED00E1038C /* Build configuration list for PBXNativeTarget "SplashSliderApp (iOS)" */;
+			buildPhases = (
+				10422E8B28C12AED00E1038C /* Sources */,
+				10422E8C28C12AED00E1038C /* Frameworks */,
+				10422E8D28C12AED00E1038C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplashSliderApp (iOS)";
+			productName = "SplashSliderApp (iOS)";
+			productReference = 10422E8F28C12AED00E1038C /* SplashSliderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10422E9428C12AED00E1038C /* SplashSliderApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10422EBB28C12AED00E1038C /* Build configuration list for PBXNativeTarget "SplashSliderApp (macOS)" */;
+			buildPhases = (
+				10422E9128C12AED00E1038C /* Sources */,
+				10422E9228C12AED00E1038C /* Frameworks */,
+				10422E9328C12AED00E1038C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplashSliderApp (macOS)";
+			productName = "SplashSliderApp (macOS)";
+			productReference = 10422E9528C12AED00E1038C /* SplashSliderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10422E9B28C12AED00E1038C /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10422EBE28C12AED00E1038C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				10422E9828C12AED00E1038C /* Sources */,
+				10422E9928C12AED00E1038C /* Frameworks */,
+				10422E9A28C12AED00E1038C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10422E9E28C12AED00E1038C /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 10422E9C28C12AED00E1038C /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		10422EA728C12AED00E1038C /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10422EC128C12AED00E1038C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				10422EA428C12AED00E1038C /* Sources */,
+				10422EA528C12AED00E1038C /* Frameworks */,
+				10422EA628C12AED00E1038C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10422EAA28C12AED00E1038C /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 10422EA828C12AED00E1038C /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10422E8328C12AED00E1038C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					10422E8E28C12AED00E1038C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					10422E9428C12AED00E1038C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					10422E9B28C12AED00E1038C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 10422E8E28C12AED00E1038C;
+					};
+					10422EA728C12AED00E1038C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 10422E9428C12AED00E1038C;
+					};
+				};
+			};
+			buildConfigurationList = 10422E8628C12AED00E1038C /* Build configuration list for PBXProject "SplashSliderApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10422E8228C12AED00E1038C;
+			productRefGroup = 10422E9028C12AED00E1038C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10422E8E28C12AED00E1038C /* SplashSliderApp (iOS) */,
+				10422E9428C12AED00E1038C /* SplashSliderApp (macOS) */,
+				10422E9B28C12AED00E1038C /* Tests iOS */,
+				10422EA728C12AED00E1038C /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10422E8D28C12AED00E1038C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10422EB428C12AED00E1038C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10422E9328C12AED00E1038C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10422EB528C12AED00E1038C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10422E9A28C12AED00E1038C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10422EA628C12AED00E1038C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10422E8B28C12AED00E1038C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10422EB228C12AED00E1038C /* ContentView.swift in Sources */,
+				10422EB028C12AED00E1038C /* SplashSliderAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10422E9128C12AED00E1038C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10422EB328C12AED00E1038C /* ContentView.swift in Sources */,
+				10422EB128C12AED00E1038C /* SplashSliderAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10422E9828C12AED00E1038C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10422EA328C12AED00E1038C /* Tests_iOSLaunchTests.swift in Sources */,
+				10422EA128C12AED00E1038C /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10422EA428C12AED00E1038C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10422EAF28C12AED00E1038C /* Tests_macOSLaunchTests.swift in Sources */,
+				10422EAD28C12AED00E1038C /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10422E9E28C12AED00E1038C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10422E8E28C12AED00E1038C /* SplashSliderApp (iOS) */;
+			targetProxy = 10422E9D28C12AED00E1038C /* PBXContainerItemProxy */;
+		};
+		10422EAA28C12AED00E1038C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10422E9428C12AED00E1038C /* SplashSliderApp (macOS) */;
+			targetProxy = 10422EA928C12AED00E1038C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10422EB628C12AED00E1038C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10422EB728C12AED00E1038C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		10422EB928C12AED00E1038C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A28U46UDP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.splashsliderapp.SplashSliderApp;
+				PRODUCT_NAME = SplashSliderApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10422EBA28C12AED00E1038C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A28U46UDP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.splashsliderapp.SplashSliderApp;
+				PRODUCT_NAME = SplashSliderApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10422EBC28C12AED00E1038C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A28U46UDP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.splashsliderapp.SplashSliderApp;
+				PRODUCT_NAME = SplashSliderApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		10422EBD28C12AED00E1038C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A28U46UDP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.splashsliderapp.SplashSliderApp;
+				PRODUCT_NAME = SplashSliderApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		10422EBF28C12AED00E1038C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A28U46UDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.splashsliderapp.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SplashSliderApp (iOS)";
+			};
+			name = Debug;
+		};
+		10422EC028C12AED00E1038C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A28U46UDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.splashsliderapp.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SplashSliderApp (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10422EC228C12AED00E1038C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A28U46UDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.splashsliderapp.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SplashSliderApp (macOS)";
+			};
+			name = Debug;
+		};
+		10422EC328C12AED00E1038C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A28U46UDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.splashsliderapp.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SplashSliderApp (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10422E8628C12AED00E1038C /* Build configuration list for PBXProject "SplashSliderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10422EB628C12AED00E1038C /* Debug */,
+				10422EB728C12AED00E1038C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10422EB828C12AED00E1038C /* Build configuration list for PBXNativeTarget "SplashSliderApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10422EB928C12AED00E1038C /* Debug */,
+				10422EBA28C12AED00E1038C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10422EBB28C12AED00E1038C /* Build configuration list for PBXNativeTarget "SplashSliderApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10422EBC28C12AED00E1038C /* Debug */,
+				10422EBD28C12AED00E1038C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10422EBE28C12AED00E1038C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10422EBF28C12AED00E1038C /* Debug */,
+				10422EC028C12AED00E1038C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10422EC128C12AED00E1038C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10422EC228C12AED00E1038C /* Debug */,
+				10422EC328C12AED00E1038C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10422E8328C12AED00E1038C /* Project object */;
+}
